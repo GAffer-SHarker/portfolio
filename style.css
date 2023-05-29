@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html{
+
+    font-size: 62.5%;
+
+}
+
+
+body{
+    margin: 0rem;
+}
+
+header{
+    padding: .5rem;
+    text-align: center;
+    background-color:rgb(0, 24, 43);
+    justify-content: center;
+}
+header h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 5rem;
+    color: tan;
+}
+header h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    color: tan;
+}
+
+nav{
+    
+    font-size: 2.2rem;
+    background-color:tan;
+    overflow: hidden;
+    display: flex;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    justify-items: center;
+    
+}
+
+nav a{
+     
+    justify-content:space-around;
+    width: 100%;
+    display:flex;
+    color:rgb(1, 30, 54);
+    text-decoration: none;
+    padding: 2rem;
+
+
+}
+nav a:hover{
+    color:royalblue;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+
+.hero{
+    display:flex;
+    float:right;
+    padding: .2rem;
+    font-size: 2rem;
+
+}
+.hero i:hover{
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+
+
+i{
+    width: 100%;
+    padding: 2rem;
+    border: none;
+    cursor: pointer;
+    margin: .5rem;
+    color: tan;
+}
+.special{
+    display:flex;
+    color: tan;
+}
+
+img{
+    padding: 0rem;
+    width: 100%;
+    margin-top: .1rem;
+}
+footer{
+
+    height: 40rem;
+    overflow: hidden;
+    background-color: #070707;
+}
+footer a{
+    display: block;
+    color:tan;
+    text-decoration: none;
+    padding: 1.4rem 2rem;
+    font-size: 1.5rem;
+}
+.main{
+    width: 100%;
+    padding-top: 3.5rem;
+    padding-left: 6rem;
+    display: flex;
+    color: tan;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 2rem;
+    
+}
+
+hr{
+    width: 95%;
+    padding-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+.copyright{
+    text-align: center;
+}
+
+.container{
+     display:flex;
+     overflow: hidden;
+     padding-left: 37rem;
+     width: 80%;
+    
+}
+.container i{
+     
+     display: flex;
+     padding: 1rem;
+     justify-content:space-around;
+     margin: 0%;
+     font-size: 2rem;
+     margin-bottom: 6rem;
+
+}
+.container i:hover{
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+
+
+@media(max-width:1200px) {
+
+    html {
+        
+        font-size: 40%;
+        width: 100%;
+        
+    }
+    
+}
+
+
+@media(max-width:950px) {
+
+    html {
+        
+        font-size: 35%;
+        width: 100%;
+        
+    }
+    
+}
+
+@media(max-width:768px) {
+    
+    html { 
+        
+        display: block;
+        font-size: 15%;
+        width: 100%;
+        
+    }
+
+}
+
+@media(max-width:660px) {
+    
+    html { 
+        display: block;
+        font-size: 10%;
+        width: 100%;
+        
+    }
+
+}
+
+@media(max-width:380px) {
+    
+    html { 
+        display: block;
+        font-size: 5%;
+        width: 100%;
+        
+    }
+
+}
+
+
